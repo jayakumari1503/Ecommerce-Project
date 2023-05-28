@@ -1,18 +1,23 @@
 #Install Dependencies
+
 **for Backend** - npm i
+
 **for Frontend** - cd frontend npm i
 
 
-**Essential Variable**
+##ENV Variables
 Create a config.env file in backend/config directory and variables in order to use this application
+
+**Essential Variable**
+
 PORT = 
 DB_URI = 
 STRIPE_API_KEY =
 STRIPE_SECRET_KEY=
 JWT_SECRET=
-JWT_EXPIRE=5d
-COOKIE_EXPIRE=5
-SMPT_SERVICE=gmail
+JWT_EXPIRE=
+COOKIE_EXPIRE=
+SMPT_SERVICE=
 SMPT_MAIL=
 SMPT_PASSWORD=
 SMPT_HOST=
